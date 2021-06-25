@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Open sans", serif;
+}
+body{
+    margin-top: 10%;
+    background: url(../images/background_login.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: #fff;
+    width: 420px;
+    border: solid thin #cad0d7;
+    padding: 20px;
+}
+
+.box_headline{
+    color: #cad0d7;
+    margin-bottom: 5px;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+.radius{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.btn{
+    background-color: #E93D46 !important;
+    border-bottom: solid 3px #A42B31 !important;
+    padding: 15px 20px 13px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #D92B31 !important;
+}
+
+.box_form input, 
+.login_box_form buttton{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.box_form input{
+    background: #f4f6f8;
+}
+
+.box_form span{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.box_form p{
+    text-align: center;
+}
+
+.box_form .esqueceu_senha{
+    text-decoration: none;
+    font-size: 0.875em;
+    color: #E93D46;
+}
+
+.box_form .esqueceu_senha:hover{
+    color: #A42B31;
+}

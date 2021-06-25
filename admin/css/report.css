@@ -1,0 +1,110 @@
+body{
+    background-color: #FFF;
+    font-size: 1em;
+}
+
+p{
+    margin-bottom: 0px !important;
+}
+
+h3{
+    font-size: 1em;
+    margin: 15px 0;
+}
+
+h4{
+    font-size: 0.9em;
+    text-align: center;
+    border-bottom: 1px solid #5C6A79;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.report_logo{
+    max-width: 100%;
+    display: block;
+    text-align: center !important;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.report_content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main_header_content_title h2{
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.main_header_content_title p{
+    font-size: 0.6em;
+    font-weight: 300;
+    padding-top: 5px;
+    border-top: 1px solid #34495E;
+    text-align: right;
+}
+
+.report_rows{
+    display: block;
+}
+
+.report_row_item{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2px 0;
+}
+
+.title{
+    background-color: #ECF0F1;
+    font-weight: 600 !important;
+    padding: 8px 0;
+}
+
+.report_row_item_cell_15{
+    flex-basis: 15%;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.report_row_item_cell_20{
+    flex-basis: 20%;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.report_row_item_subtotal{
+    display: block;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 40px;
+    border-bottom: 1px solid #5C6A79;
+    padding-bottom: 10px;
+}
+
+.report_endereco{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+}
+
+.report_endereco .label_endereco{
+    text-align: right;
+    flex-basis: 20%;
+}
+.report_endereco .content_endereco{
+    flex-basis: 80%;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.main_footer{
+    padding: 20px;
+    font-weight: 300;
+    font-size: 0.7em;
+    text-align: center;
+}

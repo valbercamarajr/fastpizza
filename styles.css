@@ -1,0 +1,26 @@
+.window{
+    display: none;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    background: #FFF ;
+    left: 0;
+    top:0;
+    z-index: 9900;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#backgroundModal{
+    display: none;
+    position: absolute;
+    background: #000 ;
+    left: 0;
+    top:0;
+    z-index: 9000;
+}
+
+.close{
+    display: block;
+    text-align: right;
+}
